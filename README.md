@@ -5,6 +5,13 @@
 npm install
 ```
 
+### Update env variable
+* Change filename for `.env-copy` to `.env`
+* Update the `API_KEY` with the one you obtain from Constructor.io dashboard.
+```
+VUE_APP_API_KEY='<INSERT_API_KEY>'
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
